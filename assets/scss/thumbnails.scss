@@ -1,0 +1,68 @@
+$dark-blue: #2F384B;
+$white: #fff;
+$black: #000;
+$grey: #8d8c8c;
+$dark-grey: #666;
+$light-grey: #f5f5f5;
+$light-grey2: #ddd;
+$orange: #f47721;
+
+.panel-main{
+  background: $light-grey2;
+  border-radius: 1px;
+}
+.panel-image {
+  position: relative;
+}
+.panel-image img.panel-image-preview {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.panel-image label {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.panel-heading ~ .panel-image img.panel-image-preview {
+  border-radius: 0px;
+}
+
+.panel-body {
+  overflow: hidden;
+}
+
+
+.panel-image ~ .panel-footer a {
+  padding: 0px 10px;
+  font-size: 1.3em;
+  color: rgb(100, 100, 100);
+}
+.panel-title-left
+{
+  color: $dark-blue;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.panel-title-right
+ {
+   color: lighten($dark-grey,20%);
+   margin-top: 0;
+   margin-bottom: 0;
+   font-size: 13px;
+ }
+.btn-del {
+  background: $light-grey;
+  margin-top: -6px;
+}
+.btn-del:hover {
+  background: $light-grey;
+  color: $white;
+  text-decoration: underline;
+
+}
