@@ -40,7 +40,6 @@ body {
 /*head*/
 .main-header {
   margin-top: 50px;
-  margin-bottom: 30px;
   padding-top: 80px;
   color: inherit;
   background-color: #2F384B;
@@ -73,7 +72,6 @@ body {
 }
 
 .main-text {
-  text-align: center;
   margin-bottom: 65px;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -123,4 +121,16 @@ body {
 .footer-link a {
   color: #fff;
   text-decoration: none;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-regis-photo {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #2F384B;
+  margin: 0;
 }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add a new photo</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-cus">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar brand" href="#">Photobox</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Overview</a></li>
+            <li><a href="#">Hashtag</a></li>
+            <li><a href="#">Sign in</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="main-header">
+    <h1 class="text-header">Create Photo Box</h1>
+    <p class="content-header">if you're making photo box for event, you'll need to register it first.</p>
+    <div class="container">
+        <form method="POST" action="http://photo-box.azurewebsites.net/photo_box" accept-charset="UTF-8"><input name="_token" type="hidden" value="06PMHLpRGJ63I5gV5uxAu7m77y4a4BC2dpXCsK4z">
+            <div class="form-group">
+
+                <input class="form-control" placeholder="Name..." name="name" type="text">
+            </div>
+            <div class="text-center">
+                <input class="btn btn-cus" type="submit" value="Create">
+            </div>		  </form>
+    </div>
+</div>
+<div class="container-fluid main-regis-photo">
+
+</div>
+
+<footer class="main-footer">
+<div class="container">
+    <span class="footer-link"> <a href="#"> Overview</a></span>
+    <span class="footer-link"> <a href="#"> Hashtag</a></span>
+    <span class="footer-link"> <a href="#"> Report</a></span>
+</div>
+</footer>
+</body>
+</html>
